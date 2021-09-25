@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "better_batpack",
+  "version": "${version}",
+  "name": "Better Batpack",
+  "description": "This is mod that adds TR's Batpacks",
+  "authors": [
+    "Pitan"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/betterbatpack",
+    "sources": "https://github.com/PTOM76/betterbatpack",
+    "issues": "https://github.com/PTOM76/betterbatpack/issues"
+  },
+
+  "license": "MPL-2.0",
+  "icon": "assets/better_batpack/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ml.pkom.betterbatpack.BetterBatpack"
+    ],
+    "client": [
+      "ml.pkom.betterbatpack.BetterBatpackClient"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}
